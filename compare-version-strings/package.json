@@ -1,0 +1,37 @@
+{
+    "name": "compare-version-strings",
+    "version": "1.0.0",
+    "description": "Solution for comparing version strings",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Herve Nkurikiyimfura",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "jest": "^24.9.0",
+        "jest-junit": "^10.0.0"
+    },
+    "keywords": [
+        "js",
+        "node",
+        "async",
+        "promise"
+    ],
+    "jest": {
+        "testEnvironment": "node",
+        "reporters": [
+        "default",
+        "jest-junit"
+        ]
+    },
+    "jest-junit": {
+        "outputName": "./test-results.xml",
+        "suiteName": "jest tests",
+        "suiteNameTemplate": "{filepath}",
+        "classNameTemplate": "{classname}",
+        "titleTemplate": "{title}",
+        "ancestorSeparator": " › "
+    }
+}

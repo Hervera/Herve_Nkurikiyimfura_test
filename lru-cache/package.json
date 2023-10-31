@@ -1,0 +1,17 @@
+{
+    "name": "lru-cache",
+    "version": "1.0.0",
+    "description": "Solution for a new Geo Distributed LRU (Least Recently Used) cache with time expiration",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha test-runner.js"
+    },
+    "author": "Herve Nkurikiyimfura",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "mocha": "^9.0.0",
+      "chai": "^4.3.4"
+    }
+  }
+  
