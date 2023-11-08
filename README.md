@@ -1,4 +1,4 @@
-## Question A: Overlapping Line Segments  (do-lines-overlap directory)
+## Test 1: Overlapping Line Segments  (do-lines-overlap directory)
 
 **Description**
 The goal for this question is to write a program that accepts two line segments on the x-axis, represented as pairs of coordinates (x1, x2) and (x3, x4), and determines whether they overlap. 
@@ -9,7 +9,7 @@ The goal for this question is to write a program that accepts two line segments 
 
 ---
 
-## Question B: Version String Comparison (compare-version-strings directory)
+## Test 2: Version String Comparison (compare-version-strings directory)
 
 **Description**
 The goal of this question is to write a software library that accepts two version strings as input and determines whether one version is greater than, equal to, or less than the other. 
@@ -19,7 +19,7 @@ The goal of this question is to write a software library that accepts two versio
 
 ---
 
-## Question C: Geo Distributed LRU Cache with Time Expiration (lru-cache directory)
+## Test 3: Geo Distributed LRU Cache with Time Expiration (lru-cache directory)
 
 **Description**
 The goal is to write a new library that can be integrated into the Ormuco stack. This library should implement a Geo Distributed Least Recently Used (LRU) cache with time expiration. It is designed to meet several key criteria:
